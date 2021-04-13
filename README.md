@@ -23,7 +23,7 @@ As of right now, I currently have .bashrc functions. It's by no means a full fle
     <p></p>
     - Example: Looking for the function "publish" in the project ZeroNet
     <p></p>
-    ```
+    `
       ymski@dev:~/projects/ZeroNet/src$ fig $PWD publish
       /home/ymski/projects/ZeroNet/src/Site/Site.pyc
       /home/ymski/projects/ZeroNet/src/Site/Site.py
@@ -36,7 +36,7 @@ As of right now, I currently have .bashrc functions. It's by no means a full fle
       /home/ymski/projects/ZeroNet/src/Ui/UiWebsocket.pyc
       /home/ymski/projects/ZeroNet/src/Ui/UiWebsocket.py
       /home/ymski/projects/ZeroNet/src/Config.py
-    ```
+    `
   
 - hig
   - Simple function to pipe grep to the history command.
