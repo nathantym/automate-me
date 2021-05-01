@@ -20,7 +20,7 @@ As of right now, I currently have .bashrc functions. It's by no means a full fle
   - Uses find and grep to search for a string in a specified directory.
     - Usage: ``` fig <directory> <string> ```
     - Example: Looking for the function "publish" in the project ZeroNet
-    `
+    ```
       ymski@dev:~/projects/ZeroNet/src$ fig $PWD publish
       /home/ymski/projects/ZeroNet/src/Site/Site.pyc
       /home/ymski/projects/ZeroNet/src/Site/Site.py
@@ -33,7 +33,7 @@ As of right now, I currently have .bashrc functions. It's by no means a full fle
       /home/ymski/projects/ZeroNet/src/Ui/UiWebsocket.pyc
       /home/ymski/projects/ZeroNet/src/Ui/UiWebsocket.py
       /home/ymski/projects/ZeroNet/src/Config.py
-    `
+    ```
   
 - hig
   - Simple function to pipe grep to the history command.
