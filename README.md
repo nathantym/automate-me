@@ -11,7 +11,6 @@ As of right now, I currently have .bashrc functions. It's by no means a full fle
 - cd
   - This merely binds cd and ls, so that the dir is output after you cd. Really simple.
     - Usage: ``` cd ```
-    <p></p>
     ```
       ymski@dev:~$ cd projects/
       automate-me
@@ -20,9 +19,7 @@ As of right now, I currently have .bashrc functions. It's by no means a full fle
 - fig
   - Uses find and grep to search for a string in a specified directory.
     - Usage: ``` fig <directory> <string> ```
-    <p></p>
     - Example: Looking for the function "publish" in the project ZeroNet
-    <p></p>
     `
       ymski@dev:~/projects/ZeroNet/src$ fig $PWD publish
       /home/ymski/projects/ZeroNet/src/Site/Site.pyc
@@ -41,9 +38,7 @@ As of right now, I currently have .bashrc functions. It's by no means a full fle
 - hig
   - Simple function to pipe grep to the history command.
     - Usage: ``` hig <string> ```
-    <p></p>
     - Example: Looking for runserver commands in our history
-    <p></p>
     ```
       ymski@dev:~$ hig runserver
       191  python manage.py runserver
